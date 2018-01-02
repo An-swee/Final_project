@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
     CustomAdapter mCustomAdapter;
     ArrayList<HashMap<String, Object>> Item = new ArrayList<HashMap<String, Object>>();
     ArrayList<HashMap<String, Object>> serach = new ArrayList<HashMap<String, Object>>();
-String qdqw = "wqrwqqweq";
+    String qdqw = "wqrwqqweq";
+    String q123dqw = "wqrwqqweq";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
