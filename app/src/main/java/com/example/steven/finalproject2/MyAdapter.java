@@ -133,7 +133,7 @@ public class MyAdapter extends BaseAdapter {
                     if(facebook_url.indexOf("http") != -1){
                         Uri uri=Uri.parse(facebook_url);
                         Intent go =new Intent(Intent.ACTION_VIEW,uri);
-                        MainActivity.mActivity.startActivity(go);
+
                     }
                     else
                         Toast.makeText(MainActivity.mActivity, "此書店無ＦＡＣＥＢＯＯＫ", Toast.LENGTH_SHORT).show();
